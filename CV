@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Youssef Raad's Portfolio - A showcase of skills, projects, and experience.">
+  <title>Youssef Raad | Portfolio</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2em;
+    }
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #2c3e50;
+      color: #fff;
+      margin-top: 20px;
+    }
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 20px auto;
+      display: block;
+    }
+    .project {
+      margin-bottom: 20px;
+    }
+    .project h3 {
+      margin-top: 0;
+    }
+    .project p {
+      margin-bottom: 10px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #3498db;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+    <h1>Youssef Raad</h1>
+    <p>Software Developer | Problem Solver | Tech Enthusiast</p>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Youssef Raad, a passionate software developer with expertise in web development, problem-solving, and creating innovative solutions. I enjoy working on challenging projects and continuously improving my skills.</p>
+    <p>I have experience in technologies like HTML, CSS, JavaScript, Python, and more. My goal is to deliver high-quality software that makes a positive impact.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Web Development (HTML, CSS, JavaScript)</li>
+      <li>Backend Development (Node.js, Python)</li>
+      <li>Database Management (SQL, MongoDB)</li>
+      <li>Version Control (Git, GitHub)</li>
+      <li>Problem Solving & Algorithm Design</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <!-- Project 1 -->
+    <div class="project">
+      <h3>Project Title 1</h3>
+      <p>A brief description of the project. This project demonstrates my ability to solve real-world problems using technology.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project">
+      <h3>Project Title 2</h3>
+      <p>A brief description of the project. This project highlights my skills in backend development and database management.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project">
+      <h3>Project Title 3</h3>
+      <p>A brief description of the project. This project showcases my frontend development skills and attention to detail.</p>
+      <a href="#" class="btn">View Project</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to collaborate or have any questions, feel free to reach out!</p>
+    <p>Email: <a href="mailto:youssefraad@example.com">youssefraad@example.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/youssefraad" target="_blank">linkedin.com/in/youssefraad</a></p>
+    <p>GitHub: <a href="https://github.com/youssefraad" target="_blank">github.com/youssefraad</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Youssef Raad. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
